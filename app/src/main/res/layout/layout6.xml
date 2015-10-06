@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/SonucScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+        <TextView
+            android:id="@+id/SonucTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:editable="false"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:text="For local donations, please visit:
+www.philcancer.org.ph
+For international donations, please visit:
+www.pinkribbon.org
+
+National Cancer Institute
+9609 Medical Center Drive Room 2W12, MSC 9708
+Telephone: 301-435-3848
+E-mail: ncicenters-r@mail.nih.gov
+
+To find other cancer centers, please visit the following website:
+www.cancer.gov/research/nci-role/cancer-centers/find
+"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Charities / Researh Institutes for Cancer: "
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
